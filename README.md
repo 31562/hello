@@ -1,2 +1,2 @@
 # hello
-personal practice
+I'm practicing Python coding and studying algorithm.
