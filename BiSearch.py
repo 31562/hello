@@ -20,12 +20,13 @@ def BinarySearch(array1, num1, n_start, n_end):
     else:
         print n_start
 
-length = 15 
 #array size
+length = 15 
 SearchArray = gen_ran(length)
 
 import random
 SearchNum = SearchArray[random.randint(0, length-1)]
 
 SortedArray = sorted(SearchArray)
+#Binary Search
 BinarySearch(SortedArray, SearchNum, 0, len(SortedArray)-1)
