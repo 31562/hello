@@ -3,7 +3,7 @@ def gen_ran(num):
     input_ran = random.sample(xrange(10000), num)
     return input_ran
 
-def BinarySearch(array1, num1, n_start, n_end):
+def binarysearch(array1, num1, n_start, n_end):
     if n_start != n_end:
         current = int((n_start+n_end)/2)
 
@@ -29,4 +29,4 @@ SearchNum = SearchArray[random.randint(0, length-1)]
 
 SortedArray = sorted(SearchArray)
 #Binary Search
-BinarySearch(SortedArray, SearchNum, 0, len(SortedArray)-1)
+binarysearch(SortedArray, SearchNum, 0, len(SortedArray)-1)
